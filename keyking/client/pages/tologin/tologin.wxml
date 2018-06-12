@@ -1,0 +1,10 @@
+<!--pages/tologin/tologin.wxml-->
+<loading hidden="{{loadingHidden}}">
+        登录中...
+</loading>
+ 
+<view class='container'>
+<button id='shou' type="default" bindtap="loadingTap" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">登录</button>
+</view>
+
+

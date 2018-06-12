@@ -1,0 +1,146 @@
+page {
+  background: #4d83e3;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.top {
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.top-l {
+  width: 320rpx;
+  height: 120rpx;
+  position: relative;
+}
+
+.top-l>image {
+  position: absolute;
+  z-index: 1;
+  width: 320rpx;
+  height: 120rpx;
+}
+
+.topl-head {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  top: 9rpx;
+  left: 9rpx;
+  border: 5rpx solid #fff;
+}
+
+.topl-name {
+  position: absolute;
+  z-index: 2;
+  top: 15rpx;
+  left: 150rpx;
+  color: #fff;
+}
+
+.topl-score {
+  position: absolute;
+  z-index: 2;
+  top: 55rpx;
+  left: 150rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+
+.top-r {
+  width: 320rpx;
+  height: 120rpx;
+  position: relative;
+}
+
+.top-r>image {
+  position: absolute;
+  z-index: 1;
+  width: 320rpx;
+  height: 120rpx;
+}
+
+.topr-head {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  top: 9rpx;
+  right: 9rpx;
+  border: 5rpx solid #fff;
+}
+
+.topr-name {
+  position: absolute;
+  z-index: 2;
+  top: 15rpx;
+  right: 150rpx;
+  color: #fff;
+}
+
+.topr-score {
+  position: absolute;
+  z-index: 2;
+  top: 55rpx;
+  right: 150rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+
+.top-cen {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 20rpx solid #fff;
+  line-height: 80rpx;
+  text-align: center;
+}
+
+.ask {
+  margin: 70rpx auto;
+  font-size: 60rpx;
+  color: #fff;
+  text-align: center;
+}
+
+.answer-box {
+  margin: 0 auto;
+}
+
+.answer-box>view {
+  width: 380rpx;
+  height: 100rpx;
+  background: #fff;
+  border-radius: 80rpx;
+  margin: 60rpx auto;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.jdtl {
+  position: absolute;
+  width: 880rpx;
+  height: 20rpx;
+  z-index: 4444;
+  bottom: 550rpx;
+  left: -415rpx;
+  transform: rotate(-90deg);
+}
+.jdtr {
+  position: absolute;
+  width: 880rpx;
+  height: 20rpx;
+  z-index: 4444;
+  bottom: 550rpx;
+  right: -415rpx;
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,44 @@
+<!--pages/book/book.wxml-->
+<view class='container'>
+  <view class='main'>
+    <image class='main-1' src='http://39.105.132.206/aman/public/static/images/book/dbei.png'></image>
+    <image class='main-2' src='http://39.105.132.206/aman/public/static/images/book/biaoti.png'></image>
+
+    <view class='book-box'>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/1.png'></image>
+        <view class='price'>￥188</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/2.png'></image>
+        <view class='price'>￥188</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/3.png'></image>
+        <view class='price'>￥188</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/4.png'></image>
+        <view class='price'>￥188</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/5.png'></image>
+        <view class='price'>￥188</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+      <view class='book'>
+        <image src='http://39.105.132.206/aman/public/static/images/book/6.png'></image>
+        <view class='price'>￥888</view>
+        <view class='book-name'>东哥杀猪8K8</view>
+      </view>
+    </view>
+
+    <view class='askme'>点我去咨询</view>
+
+  </view>
+  <view class='free'>免费得东币</view>
+</view>

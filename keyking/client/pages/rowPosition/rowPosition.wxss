@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('iconfont.eot?t=1527920893826'); /* IE9*/
+  src: url('iconfont.eot?t=1527920893826#iefix') format('embedded-opentype'),
+         /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAATwAAsAAAAABzwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZW7kf3Y21hcAAAAYAAAABdAAABhplsBr5nbHlmAAAB4AAAASQAAAEkQeNc6WhlYWQAAAMEAAAALwAAADYRj/f3aGhlYQAAAzQAAAAcAAAAJAfeA4RobXR4AAADUAAAAAwAAAAMC+kAAGxvY2EAAANcAAAACAAAAAgAdgCSbWF4cAAAA2QAAAAfAAAAIAESAF1uYW1lAAADhAAAAUUAAAJtPlT+fXBvc3QAAATMAAAAIgAAADbx5lbceJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2Bk/sE4gYGVgYOpk+kMAwNDP4RmfM1gxMjBwMDEwMrMgBUEpLmmMDgwVDzjZW7438AQw9zA0AAUZgTJAQAkUwx5eJzFkMENgDAMAy9t6QPRPXgwEC/m6MRdo5hQHkxQS44Vx1KiAAsQxUNMYBfGg1OuuR9Z3U+eyVIjUFvpXf2nimiWXYNKZhps3uo/Nq/76PQV6qBObOUl4QZudwvDAAAAAAUAAP/hA7wDGAATACgAMQBEAFAAAAEGKwEiDgIdASEnNC4CKwEVIQUVFxQOAycjJyEHIyIuAz0BFyIGFBYyNjQmFwYHBg8BDgEeATMhMjYnLgInATU0PgI7ATIWHQEBGRsaUxIlHBIDkAEKGCcehf5KAqIBFR8jHA8+Lf5JLD8UMiATCHcMEhIZEhKMCAYFBQgCAgQPDgFtFxYJBQkKBv6kBQ8aFbwfKQIfAQwZJxpMWQ0gGxJhiDRuHSUXCQEBgIABExsgDqc/ERoRERoRfBoWExIZBxANCBgaDSMkFAF35AsYEwwdJuMAAAAAAQAA/6cEAANZAAkAAAETBQcTJQUTJyUCAKkBV/Ar/sX+xSvwAVcDWf7YP/j+rZKSAU/4PwAAAHicY2BkYGAA4pfTju+L57f5ysDNwgAC1y0i/yLo/8tZGJgjgVwOBiaQKABcyAuPAHicY2BkYGBu+N/AEMPCAAJAkpEBFTADAEcJAmwEAAAAA+kAAAQAAAAAAAAAAHYAknicY2BkYGBgZghkYGUAASYg5gJCBob/YD4DABD3AXAAeJxlj01OwzAQhV/6B6QSqqhgh+QFYgEo/RGrblhUavdddN+mTpsqiSPHrdQDcB6OwAk4AtyAO/BIJ5s2lsffvHljTwDc4Acejt8t95E9XDI7cg0XuBeuU38QbpBfhJto41W4Rf1N2MczpsJtdGF5g9e4YvaEd2EPHXwI13CNT+E69S/hBvlbuIk7/Aq30PHqwj7mXle4jUcv9sdWL5xeqeVBxaHJIpM5v4KZXu+Sha3S6pxrW8QmU4OgX0lTnWlb3VPs10PnIhVZk6oJqzpJjMqt2erQBRvn8lGvF4kehCblWGP+tsYCjnEFhSUOjDFCGGSIyujoO1Vm9K+xQ8Jee1Y9zed0WxTU/3OFAQL0z1xTurLSeTpPgT1fG1J1dCtuy56UNJFezUkSskJe1rZUQuoBNmVXjhF6XNGJPyhnSP8ACVpuyAAAAHicY2BigAAuBuyAmZGJkZmRhYGxgqMiMy8dhBkYAB/dBAkAAA==') format('woff'),
+         url('iconfont.ttf?t=1527920893826') format('truetype'),
+         /* chrome,
+         firefox,
+         opera,
+         Safari,
+         Android,
+         iOS 4.2+*/ url('iconfont.svg?t=1527920893826#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xingxing:before {
+  content: "\e60d";
+}
+.container{
+  position: relative;
+}
+.tx{width: 118rpx;height: 120rpx;border-radius: 50%;background-color: red;position: absolute;left: 50%;top: 30rpx;margin-left: -59rpx;overflow: hidden;}
+.top {
+  width: 94%;
+  height: 270rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  position: relative;
+}
+
+.top-word {
+  margin-top: 90rpx;
+  font-size: 60rpx;
+  color: #fff;
+}
+.top-l{
+  width: 300rpx;
+  position: absolute;
+  bottom: 100rpx;
+  left: 0;
+}
+.top-l>view{
+  position: absolute;
+  left: 10rpx;
+}
+.top-l>view:last-child{
+  position: absolute;
+  left: 120rpx;
+  top:20rpx;
+  width: 200rpx;
+  height: 40rpx;
+}
+
+.top-r{
+  width: 220rpx;
+  position: absolute;
+  bottom: 50rpx;
+  right: 0;
+  color:#fff;
+}
+.top-r>image{
+  position: absolute;
+  left: 0;
+}
+
+.star {
+  width: 50rpx;
+  height: 50rpx;
+}
+.top1-box{
+  position: absolute;
+  top:240rpx;
+  width: 90%;
+  height: 800rpx;
+  border-top: 15rpx solid #1056c7;
+  border-radius: 20rpx;
+  /* background: rebeccapurple; */
+}
+
+.top1 {
+  width: 100%;
+  height: 180rpx;
+  text-align: center;
+  position: relative;
+  margin-bottom: 15rpx;
+}
+
+.top1>.level {
+  position: absolute;
+  top: 40rpx;
+  left: 20rpx;
+}
+
+.top1>.gold {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+
+.gold>image {
+  margin-right: 10rpx;
+}
+
+.title {
+  color: #fff;
+  position: absolute;
+  left: 150rpx;
+  top: 40rpx;
+}
+.num{
+  color: #ffee61;
+  position: absolute;
+  left: 150rpx;
+  top: 110rpx;
+}
+.star-box{
+  padding:0 10rpx;
+  position: absolute;
+  bottom:10rpx;
+  right: 15rpx;
+  background: #15BEF5;
+  border-radius: 20rpx;
+  height: 45rpx;
+  display: flex;
+  justify-content: space-around;
+  color:#3CA0EE;
+}

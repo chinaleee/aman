@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/tologin/tologin",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/rowPosition/rowPosition",
+    "pages/fighting-wait/fighting-wait",
+    "pages/fighting-now/fighting-now",
+    "pages/fighting/fighting",
+    "pages/rank-list/rank-list",
+    "pages/book/book"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "单词王者",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+  }
+}

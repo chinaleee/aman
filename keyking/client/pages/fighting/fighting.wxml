@@ -1,0 +1,43 @@
+<view class='container'>
+  <view class='top'>
+
+    <view class='top-l'>
+      <image src='http://39.105.132.206/aman/public/static/images/fighting/fight1.png'></image>
+      <view class='topl-head'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='topl-name'>
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view class='topl-score'>999</view>
+    </view>
+
+    <view class='top-cen'>
+      10
+    </view>
+
+    <view class='top-r'>
+      <image src='http://39.105.132.206/aman/public/static/images/fighting/fight2.png'></image>
+      <view class='topr-head'>
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class='topr-name'>
+        <open-data type="userNickName"></open-data>
+      </view>
+      <view class='topr-score'>999</view>
+    </view>
+  </view>
+
+
+  <view class='ask'>{{subject}}</view>
+  <view class='answer-box'>
+    <view wx:for="{{solution}}" wx:key="{{item}}">
+    <view>{{item.answer}}</view>
+    </view>
+  </view>
+  
+
+
+  <progress percent="20" color="aqua" stroke-width="12" class='jdtl'/> 
+  <progress percent="20" color="aqua" stroke-width="12" class='jdtr'/> 
+</view>

@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml  -->
+
+<!--初始化页面  -->
+<view class='bj'>
+  <image src='http://key.amanyx.com/aman/public/static/images/adminpage/first.png'></image> 
+</view>
+
+
+<!-- 用户授权页面 -->
+ <view hidden='authorize'>
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfoFun"></button>
+ </view>

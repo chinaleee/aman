@@ -1,0 +1,20 @@
+<view class='container'>
+  <view>世界排行</view>
+  <scroll-view scroll-y='true' class='ranklist-box' scroll-left='-150rpx'>
+
+     <view class='info-box' wx:for="{{arr}}" wx:key="{{item}}">
+      <view class='info-head'>
+      <image class='tx' mode="aspectFill" src='{{item.imgUrl}}'></image>
+      </view>
+      <view class='info-name'>
+        <view>{{item.nick}}</view> 
+      </view>
+      <view class='info-class'>单词王者</view>
+      <view class='info-star'>
+        <image src='http://39.105.132.206/aman/public/static/images/rank-list/star.png'></image>
+        <view>{{item.gold_coin}}</view>
+      </view>
+    </view> 
+
+  </scroll-view>
+</view>

@@ -1,0 +1,60 @@
+page {
+  background: #4d83e3;
+  /* background-image: url(""); */
+  background-size: 750rpx 1336rpx;
+}
+.tx{width: 118rpx;height: 120rpx;border-radius: 50%;background-color: red;position: absolute;left: 50%;top: 30rpx;margin-left: -59rpx;overflow: hidden;}
+.ranklist-box {
+  width: 92%;
+  height: 1000rpx;
+  margin-top: 30rpx;
+  border-top: 15rpx solid #195fd6;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+}
+.info-box{
+  position: relative;
+  width: 98%;
+  height: 160rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin: 0 auto 20rpx;
+}
+.info-head{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top:10rpx;
+  left: 20rpx;
+}
+.info-name{
+  position: absolute;
+  top:30rpx;
+  left: 190rpx;
+  color: #3F51A3;
+  font-size: 40rpx;
+}
+.info-class{
+  position: absolute;
+  bottom:20rpx;
+  left: 190rpx;
+  color: #3F51A3;
+  font-size: 40rpx;
+}
+.info-star{
+  position: absolute;
+  right: 10rpx;
+  bottom:10rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4d83e3;
+  border-radius: 50rpx;
+  padding: 0 12rpx;
+}
+.info-star>image{
+  width: 40rpx;
+  height: 40rpx;
+}

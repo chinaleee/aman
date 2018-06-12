@@ -1,0 +1,40 @@
+<!-- rowPosition -->
+<view class='container'>
+
+  <view class='top' style='background:url("http://39.105.132.206/aman/public/static/images/rowPosition/top.jpg") center; background-size:cover;'>
+    <view class='top-word'>第 一 赛 季</view>
+        <view class='top-l'>
+      <view>等级{{myinfo.grade}}</view>
+      <view>
+        <progress percent="40" color='aqua'/>
+      </view>
+    </view>
+
+    <view class='top-r'>
+      <image class='star' src='http://39.105.132.206/aman/public/static/images/rowPosition/xiao.png'></image>
+      <view>{{myinfo.gold_coin}}</view>
+    </view>
+
+  </view>
+
+  <scroll-view scroll-y='true' class='top1-box' scroll-left='-150rpx'>
+  <view wx:for="{{arr}}" wx:key="{{item}}">
+  <view class='top1' style='background:url("http://39.105.132.206/aman/public/static/images/rowPosition/1.png") center no-repeat; background-size:contain;' bindtap='fight' id="{{item.p_id}}" data-openid="{{myinfo.openid}}">
+  <view class='top1' style='background:url("http://39.105.132.206/aman/public/static/images/rowPosition/backgroundnew.png") center no-repeat; background-size:contain;'>
+      <view class='gold'>
+        <image src='http://39.105.132.206/aman/public/static/images/rowPosition/xiao.png' class='star'></image>
+        <text>{{item.p_money}}</text>
+      </view>
+      <view class='title'>{{item.p_name}}</view>
+
+      <view class='num'>奖金：{{item.p_money * 2}}</view>
+      <image class='level' src="{{item.img_url}}" style='width:120rpx;height:120rpx;'></image>
+      <view class='star-box'>
+        <view class='iconfont icon-xingxing' wx:for="{{item.p_star}}"></view>
+      </view>
+    </view>
+    </view>
+  </view>
+  </scroll-view>
+
+</view>

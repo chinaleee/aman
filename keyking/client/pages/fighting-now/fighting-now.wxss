@@ -1,0 +1,132 @@
+page{
+  background-image:url("http://39.105.132.206/aman/public/static/images/fighting-now/nowbac.png");
+  width: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.left{
+  width: 60%;
+  position:absolute;
+  top:50rpx;
+  left: 0;
+  animation: left .9s linear;
+}
+.left>image{
+  width: 100%;
+  height: 400rpx;
+  position: absolute;
+  z-index: 1;
+}
+.left-head{
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+  top:97rpx;
+  right:86rpx;
+}
+.left-name{
+  position: absolute;
+  z-index: 2;
+  top:219rpx;
+  right: 133rpx;
+  color: #fff;
+}
+.left-place{
+  position: absolute;
+  top:270rpx;
+  right: 54rpx;
+  z-index:2;
+  color: #fff;
+}
+
+
+.right{
+  width: 60%;
+  position:absolute;
+  top:550rpx;
+  right: 0;
+  animation: right .8s linear;
+}
+.right>image{
+  width: 100%;
+  height: 400rpx;
+  position: absolute;
+  z-index: 1;
+}
+.right-head{
+  position: absolute;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+  top:23rpx;
+  right:215rpx;
+}
+.right-name{
+  position: absolute;
+  z-index: 2;
+  top:140rpx;
+  left: 150rpx;
+  color: #fff;
+}
+.right-place{
+  position: absolute;
+  top:192rpx;
+  right: 190rpx;
+  z-index:2;
+  color: #fff;
+}
+.center{
+  position: absolute;
+  z-index: 4;
+  top:300rpx;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  animation: center 1.4s linear 1s;
+}
+.center>image{
+  width: 80%;
+  height: 300rpx;
+}
+@keyframes left{
+  from {
+    transform: translate(-380rpx,-150rpx);
+  }
+
+  to {
+    transform: translate(0rpx,0rpx);
+  }
+}
+@keyframes right{
+  from {
+    transform: translate(380rpx,150rpx);
+    
+  }
+
+  to {
+    transform: translate(0rpx,0rpx);
+  }
+}
+@keyframes center{
+  0% {
+    transform:scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(0);
+    opacity: 0;
+  }
+}

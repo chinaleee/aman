@@ -1,0 +1,21 @@
+/**index.wxss**/
+
+page{
+  height: 100%;
+  width:100%;
+  box-sizing: border-box;
+}
+.bj{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.bj image{
+  width:750rpx;
+  height: 100%;
+  position: fixed;
+  top: 0;left: 0;
+  z-index: -1;
+  }

@@ -1,0 +1,15 @@
+/* pages/tologin/tologin.wxss */
+page{
+  background-image: url("http://39.105.132.206/aman/public/static/images/adminpage/first.png");
+  background-size:750rpx 100%;
+  width: 100%;
+   height: 100%;
+   position: relative;
+}
+#shou{
+  width: 90%;
+  background-color: #1AAD19;
+  color: #fff;
+  position: absolute;
+  top: 800rpx;
+}

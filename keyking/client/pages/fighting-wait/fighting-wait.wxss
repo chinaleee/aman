@@ -1,0 +1,74 @@
+page {
+  background: #4d83e3;
+}
+
+.container {
+  width: 100%;
+  height: 1334rpx;
+  position: relative;
+}
+
+.circle {
+  width: 600rpx;
+  height: 600rpx;
+  position: absolute;
+  margin-top: 140rpx;
+}
+
+.circle1 {
+  width: 300rpx;
+  height: 310rpx;
+  position: absolute;
+  margin-top: 280rpx;
+  animation: cloud 5s linear infinite;
+}
+
+@keyframes cloud {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circle2 {
+  width: 400rpx;
+  height: 380rpx;
+  position: absolute;
+  margin-top: 246rpx;
+  animation: cloud1 5s linear infinite;
+}
+
+@keyframes cloud1 {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+.headx{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 99;
+  top: 370rpx;
+  border: 5rpx solid #fff;
+}
+.info{
+  width: 100%;
+  height: 300rpx;
+  text-align: center;
+  position: absolute;
+  bottom: 240rpx;
+  color:#fff;
+}
+.info3{
+  color: #C0D0F2;
+  margin: 10rpx 0;
+}

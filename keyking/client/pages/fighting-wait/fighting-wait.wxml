@@ -1,0 +1,14 @@
+<view class='container'>
+  <image class='circle' src='http://39.105.132.206/aman/public/static/images/fighting-wait/1.png'></image>
+  <image class='circle1' src='http://39.105.132.206/aman/public/static/images/fighting-wait/2.png'></image>
+  <image class='circle2' src='http://39.105.132.206/aman/public/static/images/fighting-wait/3.png'></image>
+  <view class='headx'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class='info'>
+      <view class='info1'><open-data type="userNickName"></open-data></view>
+      <view class='info2'>来自：北京</view>
+      <view class='info3'>等级:{{myinfo.grade}}</view>
+      <view class='info4'><image src='http://39.105.132.206/aman/public/static/images/rowPosition/xiao.png' style='width:40rpx;height:40rpx;'></image>{{myinfo.gold_coin}}</view>
+  </view>
+</view>
